@@ -5,6 +5,7 @@
 @layer base {
   :root {
     --color-primary: 192deg 48% 50%;
+    --color-primary-light: 201deg 36% 95%;
     --color-accent: 0deg 73% 59%;
     --color-accent-light: 0 100% 95%;
     --color-global-background: 0deg 0% 98%;
