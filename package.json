@@ -14,8 +14,10 @@
     "lintfix": "prettier --write --list-different . && yarn lint:js --fix"
   },
   "dependencies": {
+    "@pinia/nuxt": "^0.4.11",
     "core-js": "^3.25.3",
     "nuxt": "^2.17.0",
+    "pinia": "^2.1.6",
     "vue": "^2.7.10",
     "vue-server-renderer": "^2.7.10",
     "vue-template-compiler": "^2.7.10"
