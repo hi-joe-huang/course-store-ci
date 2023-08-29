@@ -11061,6 +11061,11 @@ tailwind-config-viewer@^1.7.2:
     portfinder "^1.0.26"
     replace-in-file "^6.1.0"
 
+tailwindcss-full-bleed@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/tailwindcss-full-bleed/-/tailwindcss-full-bleed-2.0.1.tgz#3429d852dad88e7bcb29a5a9959c545505784513"
+  integrity sha512-Qw1kqnafQxkFrHlAz0fHm2j+02LbLSd7qAWMXLTHWzIMnOneGZK4+s03tTod9BrSczqoNrQ2Lq9+uC3+tRphvw==
+
 tailwindcss@^3.1.8:
   version "3.3.3"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.3.3.tgz#90da807393a2859189e48e9e7000e6880a736daf"

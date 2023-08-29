@@ -11,5 +11,8 @@ export default <Partial<Config>>{
         'accent-light':  'hsl(var(--color-accent-light) / <alpha-value>)'
       }
     }
-  }
+  },
+  plugins: [
+    require('tailwindcss-full-bleed')
+  ]
 }
