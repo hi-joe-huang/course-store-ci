@@ -1,15 +1,15 @@
 <template>
   <div>
-
-    <Tutorial />
-    <h1>test</h1>
+    <div class="flex flex-wrap md:flex-nowrap gap-4">
+      <div class="w-full">
+        <checkout-cart/>
+      </div>
+      <div class="w-full max-w-none md:max-w-[380px]">
+        <checkout-total/>
+      </div>
+    </div>
+    <div>
+      <fundraising-list/>
+    </div>
   </div>
 </template>
-
-<script lang="ts">
-import Vue from 'vue'
-
-export default Vue.extend({
-  name: 'IndexPage',
-})
-</script>
