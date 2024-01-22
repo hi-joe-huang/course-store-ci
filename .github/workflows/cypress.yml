@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4 
         with:
-          node-version: '14.21.3'
+          node-version: 16
       - run: yarn
       - run: yarn dev
       # - name: Cypress run
